@@ -18,8 +18,6 @@ export const EditProductForm = ({ product, onModalClose }: Props) => {
   );
   const [newComment, setNewComment] = useState("");
 
-  console.log(newComment);
-
   const dispatch = useDispatch<AppDispatch>();
 
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {

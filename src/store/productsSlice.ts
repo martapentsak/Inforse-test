@@ -51,7 +51,6 @@ export const deleteProduct = createAsyncThunk(
   async (id: string, { rejectWithValue }) => {
     try {
       await axios.delete(`${api}/${id}`);
-      console.log("Deleted ID:", id);
       return id;
     } catch (error) {
       return rejectWithValue("Failed to delete product");
@@ -96,7 +95,6 @@ const productsSlice = createSlice({
         state.products.push(action.payload);
       })
       .addCase(deleteProduct.fulfilled, (state, action) => {
-        console.log(state.products, action.payload)
         state.products = state.products.filter((product) => product.id !== action.payload);
       })
       .addCase(updateProduct.fulfilled, (state, action) => {
