@@ -1,0 +1,83 @@
+.product-card {
+    position: relative;
+    width: 220px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    cursor: pointer;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .product-info h3 {
+    font-size: 1em;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .product-info p {
+    font-size: 0.85em;
+    margin: 0;
+  }
+  
+  .product-comments {
+    padding: 5px 10px;
+    border-top: 1px solid #eee;
+    font-size: 0.8em;
+    max-height: 80px;
+    overflow-y: auto;
+  }
+  
+  .product-comments h4 {
+    margin: 0 0 4px 0;
+    font-weight: 500;
+  }
+  
+  .product-comments ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .product-comments li {
+    margin-bottom: 3px;
+    line-height: 1.2em;
+  }
+  
+  .product-comments small {
+    color: #888;
+  }
+  

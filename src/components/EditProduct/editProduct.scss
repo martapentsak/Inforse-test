@@ -1,0 +1,103 @@
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: black;
+
+
+    .form-label {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .form-input {
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+    }
+}
+
+.form-comments {
+    margin-top: 20px;
+}
+
+.add-comment {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.add-comment .form-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.add-comment .form-input:focus {
+    border-color: #4caf50;
+}
+
+.add-comment .btn-confirm {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-comment .btn-confirm:hover {
+    background-color: #45a049;
+}
+
+.comments-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.comment-item span {
+    flex: 1;
+}
+
+.comment-item small {
+    margin-left: 10px;
+    color: #888;
+}
+
+.comment-item .btn-cancel {
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 10px;
+    transition: background-color 0.2s;
+}
+
+.comment-item .btn-cancel:hover {
+    background-color: #b3b3b3;
+}

@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "id": "9c6743e2-9026-47a-a002-02c6cc35618d",
+      "name": "dfgdfg",
+      "imageUrl": "https://www.condense-paris.com/760-large_default/reve-parfume-au-parc-monceau.jpg",
+      "count": "8",
+      "sizeWidth": "100",
+      "sizeHeight": "200",
+      "weight": "400",
+      "comments": [
+        {
+          "id": "1fbff3fc-d295-4478-8321-0ec61d91943c",
+          "productId": "9c6743e2-9026-47a-a002-02c6cc35618d",
+          "description": "dsfsdfsdf",
+          "date": "08/10/2025, 14:51:15"
+        },
+        {
+          "id": "c38f8fa6-8cf2-42a6-9d89-1026568c85b4",
+          "productId": "9c6743e2-9026-47a-a002-02c6cc35618d",
+          "description": "dsfdsf",
+          "date": "08/10/2025, 14:51:16"
+        }
+      ]
+    },
+    {
+      "id": "51b57c36-a4b2-48cb-b099-91175e950131",
+      "name": "dfgdfgdfg",
+      "imageUrl": "dfg",
+      "count": "3",
+      "sizeWidth": "12",
+      "sizeHeight": "122",
+      "weight": "12",
+      "comments": []
+    }
+  ]
+}
