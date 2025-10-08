@@ -11,6 +11,7 @@ type Props = {
   onModalClose: () => void;
 };
 
+//TODO: common component with AddProductForm. Need to unify.
 export const EditProductForm = ({ product, onModalClose }: Props) => {
   const [productInfo, setProductInfo] = useState<Product>(product);
   const [comments, setComments] = useState<Comment[]>(
